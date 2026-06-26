@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="theme-home">
+        <header class =" vh-50">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 w-100 z-3 ">
+            <div class="container ">
+    <a  id = "home" class="navbar-brand rounded p-1 bg-info-subtle" href="#">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto d-flex flex-row gap-2">
+    <div class="nav-item">
+        <span  id ="sansony"class="nav-link  rounded sansony">SANSONY</span>
+    </div>
+    <div class="nav-item">
+        <span id="jojo" class="nav-link  rounded jojo">JOJO</span>
+    </div>
+    <div class="nav-item">
+        <span id="zozy" class="nav-link  rounded zozy">ZOZY</span>
+    </div>
+    <div class="nav-item">
+        <span id="nony" class="nav-link  rounded nony">NONY</span>
+    </div>
+</div>
+            </div>
+            </div>
+</nav>
+
+ <div class="hero-content text-center rounded shadow-lg p-4">
+
+        <h1 class="display-4 fw-bold text-white">
+            ❤️ Our Story ❤️
+        </h1>
+
+        <p class="lead text-white mb-4">
+            Since 26 July 2024
+        </p>
+
+        <div class="counter-card shadow-lg">
+            <h2 id="counter"></h2>
+            <p class="mb-0">Days Together 🫶</p>
+        </div>
+
+    </div>
+</header>
+   <div class="container my-5">
+    <div class="row justify-content-center">
+
+        <div class="col-12 col-md-7">
+
+            <div id="carouselExampleAutoplaying"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+                data-bs-interval="4000">
+
+                <div class="carousel-inner rounded shadow">
+
+                    <div class="carousel-item active">
+                        <img src="./images/main.jpg"id="image1" class="d-block w-100 square-img" alt="Image 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./images/main2.jpg" id="image2" class="d-block w-100 square-img" alt="Image 2">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./images/main3.jpg" id="image3" class="d-block w-100 square-img" alt="Image 3">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card text-center shadow-lg border-0 rounded-4">
+
+                <div class="card-body">
+
+                    <h2 class="mb-4">🎁 Surprise</h2>
+
+<h4 id="message" class="mb-4" style="color:#8e44ad;font-weight: bold;">
+                            Click the button ❤️
+                    </h4>
+
+                    <button id="surpriseBtn" class="btn btn-danger rounded-pill px-4">
+                        Surprise Me ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row justify-content-center ">
+
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+
+            <div class="card border-0 shadow-lg rounded-4">
+
+                <img src="./images/main.jpg"
+            id ="random"class="card-img-top rounded-top-4" style="width: 100%; height: 400px; object-fit: cover;"alt="Photo">
+
+                <div class="card-body text-center bg-white rounded-bottom-4">
+
+                    <h3 class="card-title fw-bold">
+                        Our Memory ❤️
+                    </h3>
+
+                    <p class="card-text text-muted">
+                        A beautiful moment that will always stay in our hearts.
+                    </p>
+
+                    <button  id ="changeBtn" class="btn btn-dark px-4 rounded-pill">
+                PRESS ME!
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+    
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</html>

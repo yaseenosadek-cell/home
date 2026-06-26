@@ -1,0 +1,327 @@
+.sansony
+{
+    color: #000000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.sansony:hover
+{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.sansony:active
+{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.jojo
+{
+    color:blue;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.jojo:hover
+{
+    color: #ffffff;
+    background-color: blue;
+}
+
+.jojo:active
+{
+    color: #ffffff;
+    background-color: blue;
+}
+
+.nony
+{
+    color: #a51b34;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.nony:hover
+{
+    color: #ffffff;
+    background-color: #a51b34;
+}
+
+.nony:active
+{
+    color: #ffffff;
+    background-color: #a51b34;
+}
+
+.zozy
+{
+    color: #56d727;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.zozy:hover
+{
+    color: #ffffff;
+    background-color: #56d727;
+}
+
+.zozy:active
+{
+    color: #ffffff;
+    background-color: #56d727;
+}
+
+header{
+    background-image: url('../images/hearts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.square-img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.carousel-item{
+    transition: opacity 1.5s ease-in-out;
+}
+
+.count
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.heart{
+    position: fixed;
+    font-size: 25px;
+    pointer-events: none;
+    animation: floatUp 2s linear forwards;
+    z-index: 9999;
+}
+
+@keyframes floatUp{
+
+    0%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-200px) scale(2);
+    }
+
+}
+
+/* ========================= */
+/*      SMOOTH TRANSITIONS   */
+/* ========================= */
+
+body,
+header,
+nav,
+.card,
+.card-body,
+.btn,
+.counter-card{
+    transition: all .4s ease;
+}
+
+/* ========================= */
+/*        HOME THEME         */
+/* ========================= */
+
+.theme-home{
+    background:#ffffff;
+    color:#000;
+}
+
+.theme-home header{
+    background-image:url("../images/hearts.jpg");
+}
+
+.theme-home nav{
+    background:#ffffff !important;
+}
+
+.theme-home .card,
+.theme-home .card-body{
+    background:#ffffff !important;
+    color:#000;
+}
+
+.theme-home .btn{
+    background:#212529;
+    color:#fff;
+    border:none;
+}
+
+.theme-home .counter-card{
+    background:rgba(255,255,255,.85);
+    color:#000;
+    border-radius:20px;
+    padding:20px;
+}
+
+/* ========================= */
+/*      SANSONY THEME        */
+/* ========================= */
+
+.theme-sansony{
+    background:#000;
+    color:#fff;
+}
+
+.theme-sansony header{
+    background-image:url("../images/hearts.jpg");
+    filter:grayscale(.15);
+}
+
+.theme-sansony nav{
+    background:#111 !important;
+}
+
+.theme-sansony .navbar-brand{
+    background:#000 !important;
+    color:#fff !important;
+}
+
+.theme-sansony .card,
+.theme-sansony .card-body{
+    background:#181818 !important;
+    color:#fff;
+}
+
+.theme-sansony .btn{
+    background:#000;
+    color:#fff;
+    border:1px solid white;
+}
+
+.theme-sansony .counter-card{
+    background:rgba(0,0,0,.65);
+    color:#fff;
+    border-radius:20px;
+    padding:20px;
+}
+
+/* ========================= */
+/*        JOJO THEME         */
+/* ========================= */
+
+.theme-jojo{
+    background:#1d4ed8;
+    color:#fff;
+}
+
+.theme-jojo nav{
+    background:#0f3cb6 !important;
+}
+
+.theme-jojo .navbar-brand{
+    background:#fff !important;
+    color:#0f3cb6 !important;
+}
+
+.theme-jojo .card,
+.theme-jojo .card-body{
+    background:#2b62ff !important;
+    color:#fff;
+}
+
+.theme-jojo .btn{
+    background:#fff;
+    color:#0f3cb6;
+}
+
+.theme-jojo .counter-card{
+    background:rgba(29,78,216,.75);
+    color:white;
+    border-radius:20px;
+    padding:20px;
+}
+
+/* ========================= */
+/*        ZOZY THEME         */
+/* ========================= */
+
+.theme-zozy{
+    background:#56d727;
+    color:#fff;
+}
+
+.theme-zozy nav{
+    background:#3caf17 !important;
+}
+
+.theme-zozy .navbar-brand{
+    background:white !important;
+    color:#3caf17 !important;
+}
+
+.theme-zozy .card,
+.theme-zozy .card-body{
+    background:#72eb46 !important;
+    color:#fff;
+}
+
+.theme-zozy .btn{
+    background:white;
+    color:#2e8f11;
+}
+
+.theme-zozy .counter-card{
+    background:rgba(86,215,39,.75);
+    color:white;
+    border-radius:20px;
+    padding:20px;
+}
+
+/* ========================= */
+/*        NONY THEME         */
+/* ========================= */
+
+.theme-nony{
+    background:#a51b34;
+    color:#fff;
+}
+
+.theme-nony nav{
+    background:#7d1026 !important;
+}
+
+.theme-nony .navbar-brand{
+    background:white !important;
+    color:#7d1026 !important;
+}
+
+.theme-nony .card,
+.theme-nony .card-body{
+    background:#be2c47 !important;
+    color:#fff;
+}
+
+.theme-nony .btn{
+    background:white;
+    color:#7d1026;
+}
+
+.theme-nony .counter-card{
+    background:rgba(165,27,52,.75);
+    color:white;
+    border-radius:20px;
+    padding:20px;
+}
